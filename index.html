@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun Sayang</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sesi 1: Pembuka -->
+    <section class="section fade-in">
+      <h1>Selamat Ulang Tahun, Icikbos!</h1>
+      <img src="image/photo.png" alt="Pacarku" class="birthday-img fade-in" />
+      <p>Idih, udah 23, udah tua anjay! 🤭</p>
+      <button onclick="nextSection(2)">Pencet ini icikbos 👉</button>
+    </section>
+
+    <!-- Sesi 2: Ucapan Ulang Tahun -->
+    <section class="section hidden">
+      <h2>Doa yang terbaik buat Icikbos.</h2>
+      <p id="typing-text" class="age-message"></p>
+      <button onclick="nextSection(3)">Pencet lagi icikbos 📸</button>
+    </section>
+
+    <!-- Sesi 3: Galeri -->
+    <section class="section hidden">
+      <h2>Bonus hehehe 😍</h2>
+      <div class="gallery">
+        <img src="image/1.jpg" alt=" 1" />
+        <img src="image/2.jpg" alt=" 2" />
+        <img src="image/3.jpg" alt=" 3" />
+        <img src="image/4.jpg" alt=" 4" />
+        <img src="image/5.jpg" alt=" 5" />
+        <img src="image/6.jpg" alt=" 6" />
+      </div>
+      <button onclick="nextSection(1)">Terimasih icikbos 🔄</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
